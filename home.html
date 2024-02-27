@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career guidance</title>
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Career Guidance</a>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="index.html">Login</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello there,</h1>
+        <p></p>
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <a href="#" class="btn">Contact Us</a>
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-palette"></i>
+            <h3>For 9th - 10th Students</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-camera"></i>
+            <h3>For 11th - 12th Students</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-palette"></i>
+            <h3>For 9th - 10th Students</h3>
+          </div>
+
+          <div class="profession" style="--i: 4">
+            <i class="bx bx-camera"></i>
+            <h3>For 11th - 12th Students</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img"></div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Us</span></h2>
+        <h3>
+          Hi there, welcome to Career guidance!CareerGuide brings to you
+          scientific and meticulously designed Our Services to discover your
+          true potential and interest ,learning styles and skills .
+        </h3>
+
+        <p>
+          Thank you for visiting our website. We sincerely hope that your
+          experience exploring our websites has been both enjoyable and
+          enriching. Our commitment to providing valuable content and resources
+          is steadfast, and we trust that you found the information presented to
+          be not only engaging but also highly useful.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading"><span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>For Class 9th - 10th Students</h3>
+          <p>Helping you to choose the right subjects & stream</p>
+          <a href="form1.html" class="btn">Click here</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>For Class 11th - 12th Students</h3>
+          <p>Helping you to get into your dream</p>
+          <a href="form2.html" class="btn">Click here</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+      <h2 class="heading">Valuable <span>Feedback</span></h2>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/mark.jpg" alt="Mark" />
+              <h3><main>Mark</main></h3>
+              <p>
+                "The guidance provided here helped me understand various career
+                paths available after my 10th grade. The insights offered were
+                invaluable!"
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/abishree.jpg" alt="Abishree" />
+              <h3>Abishree</h3>
+              <p>
+                "I was uncertain about what to pursue after my 12th until I
+                found this platform. The guidance and resources offered here
+                were incredibly helpful."
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/harini.jpg" alt="Harini" />
+              <h3>Harini</h3>
+              <p>
+                "This platform provided me with clarity about various career
+                options suitable after 10th grade. It's been an enriching
+                experience!"
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section design -->
+    <section id="contact" class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us!</span></h2>
+
+      <form action="contact.php" method="post">
+        <div class="input-box">
+          <input type="text" name="fullname" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="tel" name="mobilenumber" placeholder="Mobile Number" />
+          <input type="text" name="emailsubject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text"><p>Career Guidance. Copyrights@2023</p></div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<script src="./script1.js"></script>
+<script>
+  function openloginpage() {
+    $(".login-content").style.display = "block";
+  }
+
+  function hideloginpage() {
+    $(".login-content").style.display = "none";
+  }
+</script>
